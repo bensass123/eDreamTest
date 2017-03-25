@@ -1,0 +1,654 @@
+[
+    {
+        "author": "Linus Torvalds",
+        "text": "“Talk is cheap. Show me the code.”"
+    },
+    {
+        "author": "Why The Lucky Stiff",
+        "text": "“when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.”"
+    },
+    {
+        "author": "Harold Abelson",
+        "text": "“Programs must be written for people to read, and only incidentally for machines to execute.”"
+    },
+    {
+        "author": "Richard Feynman",
+        "text": "“Well, Mr. Frankel, who started this program, began to suffer from the computer disease that anybody who works with computers now knows about. It's a very serious disease and it interferes completely with the work. The trouble with computers is you *play* with them. They are so wonderful. You have these switches - if it's an even number you do this, if it's an odd number you do that - and pretty soon you can do more and more elaborate things if you are clever enough, on one machine."
+    },
+    {
+        "author": "Rick Cook",
+        "text": "“Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.”"
+    },
+    {
+        "author": "John Woods",
+        "text": "“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”"
+    },
+    {
+        "author": "Larry Niven",
+        "text": "“That's the thing about people who think they hate computers. What they really hate is lousy programmers.”"
+    },
+    {
+        "author": "Alison Miller",
+        "text": "“Punishments include such things as flashbacks, flooding of unbearable emotions, painful body memories, flooding of memories in which the survivor perpetrated against others, self-harm, and suicide attempts.”"
+    },
+    {
+        "author": "Donald Ervin Knuth",
+        "text": "“The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.”"
+    },
+    {
+        "author": "Steve Jobs",
+        "text": "“You've baked a really lovely cake, but then you've used dog shit for frosting.”"
+    },
+    {
+        "author": "Kent Beck",
+        "text": "“I'm not a great programmer; I'm just a good programmer with great habits.”"
+    },
+    {
+        "author": "Waseem Latif",
+        "text": "“Give a man a program, frustrate him for a day."
+    },
+    {
+        "author": "Rasheed Ogunlaru",
+        "text": "“How you look at it is pretty much how you'll see it”"
+    },
+    {
+        "author": "Brian W. Kernighan",
+        "text": "“Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“A language that doesn't affect the way you think about programming is not worth knowing.”"
+    },
+    {
+        "author": "Larry Wall",
+        "text": "“When they first built the University of California at Irvine they just put the buildings in. They did not put any sidewalks, they just planted grass. The next year, they came back and put the sidewalks where the trails were in the grass. Perl is just that kind of language. It is not designed from first principles. Perl is those sidewalks in the grass.”"
+    },
+    {
+        "author": "Charles Babbage",
+        "text": "“On two occasions, I have been asked [by members of Parliament], 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?' I am not able to rightly apprehend the kind of confusion of ideas that could provoke such a question.”"
+    },
+    {
+        "author": "Joseph Weizenbaum",
+        "text": "“The computer programmer is a creator of universes for which he alone is the lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or field of battle and to command such unswervingly dutiful actors or troops.”"
+    },
+    {
+        "author": "Edward Berard",
+        "text": "“Walking on water and developing software from a specification are easy if both are frozen.”"
+    },
+    {
+        "author": "Keith Bostic",
+        "text": "“Perl – The only language that looks the same before and after RSA encryption.”"
+    },
+    {
+        "author": "Alan Kay",
+        "text": "“The most disastrous thing that you can ever learn is your first programming language.”"
+    },
+    {
+        "author": "Marvin Minsky",
+        "text": "“A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible. That is the argument we have heard from our humanists and most of our computer scientists. Computer programs are good, they say, for particular purposes, but they aren’t ﬂexible. Neither is a violin, or a typewriter, until you learn how to use it.”"
+    },
+    {
+        "author": "C.A.R. Hoare",
+        "text": "“The most important property of a program is whether it accomplishes the intention of its user.”"
+    },
+    {
+        "author": "Douglas Rushkoff",
+        "text": "“We are looking at a society increasingly dependent on machines, yet decreasingly capable of making or even using them effectively.”"
+    },
+    {
+        "author": "Paul Graham",
+        "text": "“Object-oriented programming offers a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches.”"
+    },
+    {
+        "author": "Chuck Palahniuk",
+        "text": "“Big Brother fills us all with the same crap. My guess is he was clever the same way everybody thinks they're clever. I tell her to type in 'password”"
+    },
+    {
+        "author": "Michael Crichton",
+        "text": "“At forty, I was too old to work as a programmer myself anymore; writing code is a young person’s job.”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“I think that it’s extraordinarily important that we in computer science keep fun in computing. When it started out it was an awful lot of fun. Of course the paying customers got shafted every now and then and after a while we began to take their complaints seriously. We began to feel as if we really were responsible for the successful error-free perfect use of these machines. I don’t think we are. I think we’re responsible for stretching them setting them off in new directions and keeping fun in the house. I hope the ﬁeld of computer science never loses its sense of fun. Above all I hope we don’t become missionaries. Don’t feel as if you’re Bible sales-men. The world has too many of those already. What you know about computing other people will learn. Don’t feel as if the key to successful computing is only in your hands. What’s in your hands I think and hope is intelligence: the ability to see the machine as more than when you were ﬁrst led up to it that you can make it more.”"
+    },
+    {
+        "author": "Douglas Crockford",
+        "text": "“We see a lot of feature-driven product design in which the cost of features is not properly accounted. Features can have a negative value to customers because they make the products more difficult to understand and use. We are finding that people like products that just work. It turns out that designs that just work are much harder to produce that designs that assemble long lists of features.”"
+    },
+    {
+        "author": "Vernor Vinge",
+        "text": "“Programming went back to the beginning of time. It was a little like the midden out back of his father's castle.”"
+    },
+    {
+        "author": "Max Kanat-Alexander",
+        "text": "“Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.”"
+    },
+    {
+        "author": "Charles Petzold",
+        "text": "“Code is not like other how-computers-work books. It doesn't have big color illustrations of disk drives with arrows showing how the data sweeps into the computer. Code has no drawings of trains carrying a cargo of zeros and ones. Metaphors and similes are wonderful literary devices but they do nothing but obscure the beauty of technology.”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.”"
+    },
+    {
+        "author": "Suzy Kassem",
+        "text": "“Most of the time, we see only what we want to see, or what others tell us to see, instead of really investigate to see what is really there. We embrace illusions only because we are presented with the illusion that they are embraced by the majority. When in truth, they only become popular because they are pounded at us by the media with such an intensity and high level of repetition that its mere force disguises lies and truths. And like obedient schoolchildren, we do not question their validity and swallow everything up like medicine. Why? Because since the earliest days of our youth, we have been conditioned to accept that the direction of the herd, and authority anywhere — is always right.”"
+    },
+    {
+        "author": "Edsger W. Dijkstra",
+        "text": "“Progress is possible only if we train ourselves to think about programs without thinking of them as pieces of executable code. ”"
+    },
+    {
+        "author": "Andrew Hunt",
+        "text": "“Don't gloss over a routine or piece of code involved in the bug because you \"know\" it works. Prove it. Prove it in this context, with this data, with these boundary conditions.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“Remember that code is really the language in which we ultimately express the requirements. We may create languages that are closer to the requirements. We may create tools that help us parse and assemble those requirements into formal structures. But we will never eliminate necessary precision—so there will always be code.”"
+    },
+    {
+        "author": "Suzy Kassem",
+        "text": "“In the last 10 years, we have seen a rise in selfishness: selfies, self-absorbed people, superficiality, self-degradation, apathy, and self-destruction. So I challenge all of you to take initiative to change this programming. Instead of celebrating the ego, let's flip the script and celebrate the heart. Let's put the ego and celebrity culture to sleep, and awaken the conscience. This is the battle we must all fight together to win back our humanity. To save our future and our children.”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“Is it possible that software is not like anything else, that it is meant"
+    },
+    {
+        "author": "James Alan Gardner",
+        "text": "“What kind of programmer is so divorced from reality that she thinks she'll get complex software right the first time?”"
+    },
+    {
+        "author": "Steven S. Skiena",
+        "text": "“The issue of finding the best possible answer or achieving maximum efficiency usually arises in industry only after serious performance or legal troubles.”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“What's in your hands I think and hope is intelligence: the ability to see the machine as more than when you were ﬁrst led up to it that you can make it more.”"
+    },
+    {
+        "author": "Scott Meyers",
+        "text": "“That doesn't upset too many people, but the fact that accessibility restrictions don't enter into the picture has caused more than one otherwise pacifistic soul to contemplate distinctly unpacifistic actions.”"
+    },
+    {
+        "author": "Chris Pine",
+        "text": "“Programming isn't about what you know; it's about what you can figure out.”"
+    },
+    {
+        "author": "Ahmad Moawad",
+        "text": "“Write a program in efficient way as you write for kernel scheduler”"
+    },
+    {
+        "author": "Alex Morritt",
+        "text": "“Casting a curious gaze down on planet Earth, extra-terrestrial beings could well be forgiven for assuming that we humans are programmed in every move we make, by a palm-sized, oblong, slab of glass. More perplexing than that, who on earth could convince them otherwise ?”"
+    },
+    {
+        "author": "Benjamin H. Bratton",
+        "text": "“The real nightmare, worse than the one in which the Big Machine wants to kill you, is the one in which it sees you as irrelevant, or not even as a discrete thing to know.”"
+    },
+    {
+        "author": "Suzy Kassem",
+        "text": "“It is what it is because you let it be so.”"
+    },
+    {
+        "author": "Dr. Hazem Ali",
+        "text": "“Don't try to make something that someone has already did. Try to make something different.”"
+    },
+    {
+        "author": "Dr. Hazem Ali",
+        "text": "“The happiest moment i've ever felt was that moment when i discovered my ability to create.”"
+    },
+    {
+        "author": "Dr. Hazem Ali",
+        "text": "“The happiest moment i felt; is that moment when i realized my ability to create.”"
+    },
+    {
+        "author": "Suzy Kassem",
+        "text": "“A conscious human is driven by their conscience, not popular opinion.”"
+    },
+    {
+        "author": "Ahmad Moawad",
+        "text": "“why bother with null and java 8 has optional”"
+    },
+    {
+        "author": "Jinvirle",
+        "text": "“Not all roots are buried down in the ground some are at the top of the tree.”"
+    },
+    {
+        "author": "Jinvirle",
+        "text": "“Not all roots are buried down in the ground, some are at the top of a tree.”"
+    },
+    {
+        "author": "Jalerson Lima",
+        "text": "“Mais importante do que aprender a programar numa linguagem de programação, é compreender os conceitos que são aplicados a todas as linguagens.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“The perfect kind of architecture decision is the one which never has to be made”"
+    },
+    {
+        "author": "Richard Stallman",
+        "text": "“With software there are only two possibilites: either the users control the programme or the programme controls the users. If the programme controls the users, and the developer controls the programme, then the programme is an instrument of unjust power.”"
+    },
+    {
+        "author": "Mohamed Saad",
+        "text": "“When you decide to put your business online it is a little bet tricky step for novice computer users because they want to keep data safe & secure."
+    },
+    {
+        "author": "Herbert Schildt",
+        "text": "“C gives the programmer what the programmer wants; few restrictions, few complaints... C++ maintains the original spirit of C, that the programmer not the language is in charge.”"
+    },
+    {
+        "author": "Suzy Kassem",
+        "text": "“Let's face it. We live in a command-based system, where we have been programmed since our earliest school years to become followers, not individuals. We have been conditioned to embrace teams, the herd, the masses, popular opinion -- and to reject what is different, eccentric or stands alone. We are so programmed that all it takes for any business or authority to condition our minds to follow or buy something is to simply repeat a statement more than three or four times until we repeat it ourselves and follow it as truth or the best trendiest thing. This is called \"programming\" -- the frequent repetition of words to condition us how to think, what to like or dislike, and who to follow.”"
+    },
+    {
+        "author": "Amit Kalantri",
+        "text": "“Software testing is a sport like hunting, it's bughunting.”"
+    },
+    {
+        "author": "Marijn Haverbeke",
+        "text": "“Functions that create values are easier to combine in new ways than functions that directly perform side effects”"
+    },
+    {
+        "author": "Ken Poirot",
+        "text": "“Programming your mind with positive thoughts each day will go a long way to keep you from allowing external criticism to detail your dreams.”"
+    },
+    {
+        "author": "Joshua Bloch",
+        "text": "“Learning the art of programming, like most other disciplines, consists of first learning the rules and then learning when to break them.”"
+    },
+    {
+        "author": "Waseem Latif",
+        "text": "“Think twice, code once.”"
+    },
+    {
+        "author": "Sercan Leylek",
+        "text": "“Every programmer is an author.”"
+    },
+    {
+        "author": "Louis Srygley",
+        "text": "“Without requirements and design, programming is the art of adding bugs to an empty text file.”"
+    },
+    {
+        "author": "Steven Redhead",
+        "text": "“The programming of the consciousness is based upon what is accepted or believed.”"
+    },
+    {
+        "author": "Deyth Banger",
+        "text": "“Database means a tables collected different information, so one site is a result of a collected tables????”"
+    },
+    {
+        "author": "Robert Nystrom",
+        "text": "“...I’m not saying simple code takes less time to write. You’d think it would since you end up with less total code, but a good solution isn’t an accretion of code, it’s a distillation of it.”"
+    },
+    {
+        "author": "David Ferrell",
+        "text": "“Sometimes you cannot program around stupid.”"
+    },
+    {
+        "author": "Jeff Atwood",
+        "text": "“I always suspected that programmers became programmers because they got to play God with the little universe boxes on their desks.”"
+    },
+    {
+        "author": "Paulo Caroli",
+        "text": "“Software development is the process of creating a computer software."
+    },
+    {
+        "author": "Roy Osherove",
+        "text": "“Tests are stories we tell the next generation of programmers on a project.”"
+    },
+    {
+        "author": "Brad McKinniss",
+        "text": "“You haven't created a new body for me. I'm electricity, or light, or whatever bullshit you said I am. Just some complicated programming.”"
+    },
+    {
+        "author": "Jean Jennings Bartik",
+        "text": "“I later became more interested in equal rights for women in the work place because of what was happening at IBM. One of the women at Remington Rand had previously been a system service girl for IBM during the war. After a system was installed, a system service girl would go out and show the users how it worked. She was the liaison between the users and the computer company. She was married and had been fired to make room for a returning veteran. When the war ended, IBM rehired all of its former employees who had left to join the military, then fired all of the married women with jobs that could be filled by men.”"
+    },
+    {
+        "author": "Prakash Hegade",
+        "text": "“As we cannot hangout with a machine and tell what"
+    },
+    {
+        "author": "Waseem Latif",
+        "text": "“First solve the problem. Then, write the code.”"
+    },
+    {
+        "author": "Waseem Latif",
+        "text": "“Programming is usually taught by examples.”"
+    },
+    {
+        "author": "Waseem Latif",
+        "text": "“Programming is not easy like Sunday morning, it is silent poetry.”"
+    },
+    {
+        "author": "Nickolay Tsvetinov",
+        "text": "“If the application is event-driven, it can be decoupled into multiple self-contained components. This helps us become more scalable, because we can always add new components or remove old ones without stopping or breaking the system. If errors and failures are passed to the right component, which can handle them as notifications, the application can become more fault-tolerant or resilient. So if we build our system to be event-driven, we can more easily achieve scalability and failure tolerance, and a scalable, decoupled, and error-proof application is fast and responsive to users.”"
+    },
+    {
+        "author": "Andrew Hunt",
+        "text": "“But while you can always write 'spaghetti code' in a procedural language, object-oriented languages used poorly can add meatballs to your spaghetti.”"
+    },
+    {
+        "author": "Deyth Banger",
+        "text": "“To find why that happen and why this is happening, you should start from the beginning the problem comes from the beginning go and remove the bug, fix the problem and try again to see what will happen..."
+    },
+    {
+        "author": "Gerry Geek",
+        "text": "“A code is like love, it has created with clear intentions at the beginning, but it can get complicated.”"
+    },
+    {
+        "author": "Bruno Emerson Gurgel Gomes",
+        "text": "“Toda decisão tem por base um julgamento de valor.”"
+    },
+    {
+        "author": "ahkeno",
+        "text": "“we are writing our own ‪#‎karma‬! I mean my test cases”"
+    },
+    {
+        "author": "ahkeno",
+        "text": "“Could we can have developer acceptance criteria?”"
+    },
+    {
+        "author": "Benjamin H. Bratton",
+        "text": "“Platforms don't look like how they work and don't work like how they look.”"
+    },
+    {
+        "author": "Benjamin H. Bratton",
+        "text": "“The Stack terraforms the host planet by drinking and vomiting its elemental juices and spitting up mobile phones.”"
+    },
+    {
+        "author": "Martin Fowler",
+        "text": "“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”"
+    },
+    {
+        "author": "Edsger W. Dijkstra",
+        "text": "“It is not only the violin that shapes the violinist, we are all shaped by the tools we train ourselves to use, and in this respect programming languages have a devious influence: they shape our thinking habits.”"
+    },
+    {
+        "author": "Jazzwant",
+        "text": "“Programming is breaking of one big impossible task into several very small possible tasks.”"
+    },
+    {
+        "author": "Edmond Mbiaka  ",
+        "text": "“Take positive care of your mind, and it would surely take positive care of your life.”"
+    },
+    {
+        "author": "John D. Carmack",
+        "text": "“In the information age, the barriers [to entry into programming] just aren't there. The barriers are self imposed. If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on, and the dedication to go through with it. We slept on floors. We waded across rivers.”"
+    },
+    {
+        "author": "Marijn Haverbeke",
+        "text": "“Programming, it turns out, is hard. The fundamental rules are typically simple and clear. But programs built on top of these rules tend to become complex enough to introduce their own rules and complexity. You’re building your own maze, in a way, and you might just get lost in it.”"
+    },
+    {
+        "author": "Richard P. Gabriel",
+        "text": "“Programmers are not mathematicians, no matter how much we wish and wish for it.”"
+    },
+    {
+        "author": "Imtiaz Iqbal",
+        "text": "“Life doesn't have a ctrl-z. Type wisely.”"
+    },
+    {
+        "author": "David Kushner",
+        "text": "“Carmack was of the moment. His ruling force was focus. Time existed for him not in some promising future or sentimental past but in the present condition, the intricate web ol problems and solutions, imagination and code. He kept nothing from the past–no pictures, no records, no games, no computer disks. He didn’t even save copies of his first games, Wraith and Shadowforge. There was no yearbook to remind of his time at Shadowforge. There was no yearbook to remind of his time at school, no magazine copies of his early publications. He kept nothing but what he needed at the time. His bedroom consisted of a lamp, a pillow, a blanket, and a stack of books. There was no mattress. All he brought with him from home was a cat named Mitzi (a gift from his stepfamily) with a mean streak and a reckless bladder.”"
+    },
+    {
+        "author": "Michael Bassey Johnson",
+        "text": "“Trying to become something in a world where everyone wants to become something is a thing that needs God's programming.”"
+    },
+    {
+        "author": "Donald Knuth  ",
+        "text": "“Premature optimization is the root of all evil.”"
+    },
+    {
+        "author": "Gary   Hopkins",
+        "text": "“Your limitations are largely programming instilled by others that you choose to believe.”"
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“It goes against the grain of modern education to teach children to program. What fun is there in making plans, acquiring discipline in organizing thoughts, devoting attention to detail and learning to be self-critical?”"
+    },
+    {
+        "author": "Erik Meijer",
+        "text": "“Think like a fundamentalist, code like a hacker.”"
+    },
+    {
+        "author": "Robert Nystrom",
+        "text": "“Like so many things in software, MVC was invented by Smalltalkers in the seventies. Lispers probably claim they came up with it in the sixties but didn't bother writing it down.”"
+    },
+    {
+        "author": "Alison Miller",
+        "text": "“With programmes such as flooding of emotions, the parts involved might not feel safe in turning the programme off. But you might be able to negotiate that they turn it down so it is barely noticeable. Or you could ask the spinner parts to spin in the opposite direction, so that they spin the effects back into the part who originally held those feelings rather than out to the rest of the system. Or you could insert a hidden drain and start draining out some of the feelings. Or you could find a way for the parts doing their jobs to implement the programme without doing harm. p126-127”"
+    },
+    {
+        "author": "Ketil Moland Olsen",
+        "text": "“Kids who are good at traditional school—repeating rote concepts and facts on a test—can fall apart in a situation where that isn’t enough. Programming rewards the experimental, curious mind.”"
+    },
+    {
+        "author": "Thomm Quackenbush",
+        "text": "“We can never know how much they deserve our sympathy, but we have to give it unreservedly as they are people innately full of the divine who instead choose to behave infernally owing to poor programming.”"
+    },
+    {
+        "author": "Ritesh Shrivastav",
+        "text": "“Learning a language is not interesting than knowing how it works.”"
+    },
+    {
+        "author": "Maureen F. McHugh",
+        "text": "“One of her secret fantasies had been that, as a girl who could code, she would work in the one place where a geeky fat girl could get dates. It had not been entirely untrue. But as someone had pointed out to her in school, although the odds are good, the goods are odd.”"
+    },
+    {
+        "author": "Maureen F. McHugh",
+        "text": "“She had a theory that the fear of getting in trouble was what made her not as good a programmer and that, in fact, it was all linked to testosterone, and that was why there were more guy programmers than women. It was a very hazy theory, and she didn't like it, but she had pretty much convinced herself it was true, although she couldn't bear to think of sharing it with anybody, because it was a lot better to think that there were social reasons why girls didn't usually become code monkeys than to think there were biological reasons.”"
+    },
+    {
+        "author": "Robert Nystrom",
+        "text": "“Most non-programmers don't think of plaintext like that. To them, text files feel like filling in tax forms for an angry robotic auditor that yells at them if they forget a single semicolon.”"
+    },
+    {
+        "author": "Bernard Werber",
+        "text": "“On est comme des ordinateurs qu'on programme et déprogramme à volonté. Nous nous conditionnons même à nos réussites et à nos échecs futurs.”"
+    },
+    {
+        "author": "Robert Duchnik",
+        "text": "“Being able to extend jQuery, whether by adding your own functions, CSS selectors or full- blown plugins, makes you a much stronger and smarter developer.”"
+    },
+    {
+        "author": "Steve Wozniak",
+        "text": "“As soon as he said it was okay to do engineering, that really freed me up. My psychological block was really that I didn't want to start a company. Because I was just afraid. In business and politics, I wasn't going to be a real strong participant. I wasn't going to tell other people how to do things. I wasn't going to run things ever in my life. I was a non-political person and I was a very non-forceful person. It dated back to a lot of things that happened during the Vietnam War. But I just couldn't run a company.”"
+    },
+    {
+        "author": "Anonymous",
+        "text": "“Don't get distracted by the noise.”"
+    },
+    {
+        "author": "Lasse Koskela",
+        "text": "“The approach shown... is a common pattern for testing exception-throwing behavior with JUnit. "
+    },
+    {
+        "author": "Alan J. Perlis",
+        "text": "“Every reader should ask himself periodically ``Toward what end, toward what end?'' -- but do not ask it too often lest you pass up the fun of programming for the constipation of bittersweet philosophy.”"
+    },
+    {
+        "author": "Stephen Baxter",
+        "text": "“A sentient mind refuses to be confined by the parameters of its programming.”"
+    },
+    {
+        "author": "Carlos Bueno",
+        "text": "“I once generalized from a single data point, and I'll never do that again!”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“Truth can only be found in one place: the code.”"
+    },
+    {
+        "author": "Edsger W. Dijkstra",
+        "text": "“Simplicity is prerequisite for reliability.”"
+    },
+    {
+        "author": "Michael C. Feathers",
+        "text": "“Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.”"
+    },
+    {
+        "author": "Jed McKenna",
+        "text": "“Enlightenment is the unprogrammed state.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“If you're good at the debugger it means you spent a lot of time debugging. I don't want you to be good at the debugger.”"
+    },
+    {
+        "author": "Steven S. Skiena",
+        "text": "“It has all the right ingredients: rich contents, friendly, personal language, subtle humor, the right references, and a plethora of pointers to resources.”"
+    },
+    {
+        "author": "Rasheed Ogunlaru",
+        "text": "“Our life stories are largely constructed and without mindfulness can prove destructive.”"
+    },
+    {
+        "author": "Cory Doctorow",
+        "text": "“If you've never programmed a computer, you should. There's nothing like it in the whole world. When you program a computer, it does exactly what you tell it to do. It's like designing a machine — any machine, like a car, like a faucet, like a gas-hinge for a door — using math and instructions. It's awesome in the truest sense: it can fill you with awe.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Just as it is a good practice to make all fields private unless they need greater visibility, it is a good practice to make all fields final unless they need to be mutable.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.”"
+    },
+    {
+        "author": "Alison Miller",
+        "text": "“Also, look for “floating alters.” These are not deliberately created parts of the system, but alters that were accidentally split off at the same time as others.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Locking can guarantee both visibility and atomicity; volatile variables can only guarantee visibility.”"
+    },
+    {
+        "author": "Michael C. Feathers",
+        "text": "“Legacy code. The phrase strikes disgust in the hearts of programmers. It conjures images of slogging through a murky swamp of tangled undergrowth with leaches beneath and stinging flies above. It conjures odors of murk, slime, stagnancy, and offal. Although our first joy of programming may have been intense, the misery of dealing with legacy code is often sufficient to extinguish that flame.﻿”"
+    },
+    {
+        "author": "Andrew Hunt",
+        "text": "“You Can't Write Perfect Software. Did that hurt? It shouldn't. Accept it as an axiom of life. Embrace it. Celebrate it. Because perfect software doesn't exist. No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first. And unless you accept this as a fact, you'll end up wasting time and energy chasing an impossible dream.”"
+    },
+    {
+        "author": "Lynn Hersha",
+        "text": "“As Lynn writes: \"What angers me is the loss of control. At any moment someone could come to me, be dressed the right way and use the right code, and I no longer have free will. I will do anything that person requests."
+    },
+    {
+        "author": "Ada King Lovelace",
+        "text": "“The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves.”"
+    },
+    {
+        "author": "Alison Miller",
+        "text": "“Programming is the act of installing internal, pre-established reactions to external stimuli so that a person will automatically react in a predetermined manner to things like an auditory, visual or tactile signal or perform a specific set of actions according to a date and/or time.”"
+    },
+    {
+        "author": "Douglas Crockford",
+        "text": "“Generally, the craft of programming is the factoring of a set of requirements into a a set of functions and data structures.”"
+    },
+    {
+        "author": "Jon Erickson",
+        "text": "“There is nothing good or bad about knowledge itself; morality lies in the application of knowledge.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Immutable objects are simple. They can only be in one state, which is carefully controlled by the constructor. One of the most difficult elements of program design is reasoning about the possible states of complex objects. Reasoning about the state of immutable objects, on the other hand, is trivial. "
+    },
+    {
+        "author": "Dan Salomon",
+        "text": "“Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“From the perspective of a class C, an alien method is one whose behavior is not fully specified by C. This includes methods in other classes as well as overrideable methods (neither private nor final) in C itself. Passing an object to an alien method must also be considered publishing that object. Since you can’t know what code will actually be invoked, you don’t know that the alien method won’t publish the object or retain a reference to it that might later be used from another thread.”"
+    },
+    {
+        "author": "Lynn Hersha",
+        "text": "“More proof that Lynn is still meant to continue with the government programme occurred during the winter of 2000, when she was sitting at a cafeteria table at the area college. It was later in the afternoon when a few people congregated there with books spread out so they could study while drinking coffee or snacking. Many tables were empty, yet after Lynn had been sitting for a few moments, an elderly man sat down across from her."
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Accessing shared, mutable data requires using synchronization; one way to avoid this requirement is to not share. If data is only accessed from a single thread, no synchronization is needed. This technique, thread confinement, is one of the simplest ways to achieve thread safety. When an object is confined to a thread, such usage is automatically thread-safe even if the confined object itself is not.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Once an object escapes, you have to assume that another class or thread may, maliciously or carelessly, misuse it. This is a compelling reason to use encapsulation: it makes it practical to analyze programs for correctness and harder to violate design constraints accidentally.”"
+    },
+    {
+        "author": "Steve McConnell",
+        "text": "“Trying to improve software quality by increasing the amount of testing is like trying to lose weight by weighing yourself more often. What you eat before you step onto the scale determines how much you will weigh, and the software-development techniques you use determine how many errors testing will find.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“Redundant comments are just places to collect lies and misinformation.”"
+    },
+    {
+        "author": "Robert C. Martin",
+        "text": "“How can we make sure we wind up behind the right door when the going gets tough? The answer is: craftsmanship.”"
+    },
+    {
+        "author": "Ron Lisle",
+        "text": "“I’ve learned over the past few years that comments should be considered smells.”"
+    },
+    {
+        "author": "Steve McConnell",
+        "text": "“Building software implies various stages of planning, preparation and execution that vary in kind and degree depending on what's being built. [...]"
+    },
+    {
+        "author": "Nathaniel S. Borenstein",
+        "text": "“It should be noted that no ethically -trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter.”"
+    },
+    {
+        "author": "Michael C. Feathers",
+        "text": "“Programming is the art of doing one thing at a time”"
+    },
+    {
+        "author": "Philip Greenspun",
+        "text": "“Programmers are isolated. They sit in their cubicle; they don't think about the larger picture. To my mind, a programmer is not an engineer, because an engineer is somebody who starts with a social problem that an organization or a society has and says, \"OK, here's this problem that we have- how can we solve it?\" The engineer comes up with a clever, cost-effective solution to address that problem, builds it, tests it to make sure it solves the problem. That's engineering.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“It is far easier to design a class to be thread-safe than to retrofit it for thread safety later.”"
+    },
+    {
+        "author": "Neal Stephenson",
+        "text": "“He has reverted, in other words, back into a pure balls-to-the-wall nerdism rivaled only by his early game-coding days back in Seattle. The sheer depth and involution of the current nerdism binge would be hard to convey to anyone. Intellectually, he is juggling half a dozen lit torches, Ming vases, live puppies, and running chainsaws. In this frame of mind he cannot bring himself to give a shit about the fact that this incredibly powerful billionaire has gone to a lot of trouble to come and F2F with him.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Sometimes abstraction and encapsulation are at odds with performance — although not nearly as often as many developers believe — but it is always a good practice first to make your code right, and then make it fast.”"
+    },
+    {
+        "author": "Edsger W. Dijkstra",
+        "text": "“The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Whenever more than one thread accesses a given state variable, and one of them might write to it, they all must coordinate their access to it using synchronization.”"
+    },
+    {
+        "author": "Ellen Ullman",
+        "text": "“The corollary of constant change is ignorance. This is not often talked about: we computer experts barely know what we're doing. We're good at fussing and figuring out. We function well in a sea of unknowns. Our experience has only prepared us to deal with confusion. A programmer who denies this is probably lying, or else is densely unaware of himself.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“The possibility of incorrect results in the presence of unlucky timing is so important in concurrent programming that it has a name: a race condition. A race condition occurs when the correctness of a computation depends on the relative timing or interleaving of multiple threads by the runtime; in other words, when getting the right answer relies on lucky timing.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Compound actions on shared state, such as incrementing a hit counter (read-modify-write) or lazy initialization (check-then-act), must be made atomic to avoid race conditions. Holding a lock for the entire duration of a compound action can make that compound action atomic. However, just wrapping the compound action with a synchronized block is not sufficient; if synchronization is used to coordinate access to a variable, it is needed everywhere that variable is accessed. Further, when using locks to coordinate access to a variable, the same lock must be used wherever that variable is accessed.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“When a field is declared volatile, the compiler and runtime are put on notice that this variable is shared and that operations on it should not be reordered with other memory operations. Volatile variables are not cached in registers or in caches where they are hidden from other processors, so a read of a volatile variable always returns the most recent write by any thread.”"
+    },
+    {
+        "author": "Brian Goetz",
+        "text": "“Debugging tip: For server applications, be sure to always specify the -server JVM command line switch when invoking the JVM, even for development and testing. The server JVM performs more optimization than the client JVM, such as hoisting variables out of a loop that are not modified in the loop; code that might appear to work in the development environment (client JVM) can break in the deployment environment (server JVM).”"
+    }
+]

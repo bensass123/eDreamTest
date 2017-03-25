@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - stable
+
+services:
+  - mysql
+
+env:
+  - NODE_ENV=test
+
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS testDB;'
+  - mysql -e 'USE testDB; CREATE TABLE Tests (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, title VARCHAR(250), createdAt DATETIME, updatedAt DATETIME)';

@@ -1,0 +1,13 @@
+
+//regex function to convert goofy html to real html
+var testString = '&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;h1&gt;&lt;a href="#EasyIcon"&gt;&lt;/a&gt; &lt;em&gt;(Easy)&lt;/em&gt;: Change Calculator&lt;/h1&gt;  &lt;p&gt;Write A function that takes an amount of money, rounds it to the nearest penny and then tells you the &lt;em&gt;minimum&lt;/em&gt; number of coins needed to equal that amount of money. For Example: &amp;quot;4.17&amp;quot; would print out:&lt;/p&gt;  &lt;pre&gt;&lt;code&gt;Quarters: 16 Dimes: 1 Nickels: 1 Pennies: 2 &lt;/code&gt;&lt;/pre&gt;  &lt;p&gt;&lt;em&gt;Author: nanermaner&lt;/em&gt;&lt;/p&gt;  &lt;h1&gt;Formal Inputs &amp;amp; Outputs&lt;/h1&gt;  &lt;h2&gt;Input Description&lt;/h2&gt;  &lt;p&gt;Your Function should accept a decimal number (which may or may not have an actual decimal, in which you can assume it is an integer representing dollars, not cents). Your function should round this number to the nearest hundredth.&lt;/p&gt;  &lt;h2&gt;Output Description&lt;/h2&gt;  &lt;p&gt;Print the minimum number of coins needed. The four coins used should be 25 cent, 10 cent, 5 cent and 1 cent. It should be in the following format:&lt;/p&gt;  &lt;pre&gt;&lt;code&gt;Quarters: &amp;lt;integer&amp;gt; Dimes: &amp;lt;integer&amp;gt; Nickels: &amp;lt;integer&amp;gt; Pennies: &amp;lt;integer&amp;gt; &lt;/code&gt;&lt;/pre&gt;  &lt;h1&gt;Sample Inputs &amp;amp; Outputs&lt;/h1&gt;  &lt;h2&gt;Sample Input&lt;/h2&gt;  &lt;p&gt;1.23&lt;/p&gt;  &lt;h2&gt;Sample Output&lt;/h2&gt;  &lt;pre&gt;&lt;code&gt;Quarters: 4 Dimes: 2 Nickels: 0 Pennies: 3 &lt;/code&gt;&lt;/pre&gt;  &lt;h1&gt;Challenge Input&lt;/h1&gt;  &lt;pre&gt;&lt;code&gt;10.24 0.99 5 00.06 &lt;/code&gt;&lt;/pre&gt;  &lt;h2&gt;Challenge Input Solution&lt;/h2&gt;  &lt;p&gt;Not yet posted&lt;/p&gt;  &lt;h1&gt;Note&lt;/h1&gt;  &lt;p&gt;This program may be different for international users, my examples used quarters, nickels, dimes and pennies. Feel free to use generic terms like &amp;quot;10 cent coins&amp;quot; or any other unit of currency you are more familiar with.&lt;/p&gt;  &lt;ul&gt; &lt;li&gt;Bonus: Only print coins that are used at least once in the solution.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt;';
+
+testString = testString.replace(/&amp;lt;/g, '\<');
+testString = testString.replace(/&amp;gt;/g, '\>');
+testString = testString.replace(/&lt;/g, '<');
+testString = testString.replace(/&gt;/g, '>');
+testString = testString.replace(/&amp;amp;/g, '&');
+testString = testString.replace(/&amp;/g, '&');
+testString = testString.replace(/&quot;/g, '"');
+
+setTimeout(function(){console.log(testString)}, 1000);
