@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hb Test</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+  </head>
+  <style>
+  	body {
+  		background-color:white;
+  	}
+  </style>
+  <body>
+
+	  <div class="rChallenge">
+	    <h1>{{title}}</h1>
+	    <div class="body">
+	      {{selfText_html}}
+	    </div>
+	    <div class ='redditUrl'>
+	      {{url}}
+	    </div>
+	    <div class ='redditUrl'>
+	      {{difficulty}}
+	    </div>
+	  </div>
+
+  <div id='results'></div>
+  <div id='buttons'></div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type='text/javascript'>
+
+
+	  	//function to display reddit problems
+	 //    var show = (obj) => {
+		//     var source   = $("#reddit-template").html();
+		// 	var templateReddit = Handlebars.compile(source);
+		// 	var context = obj;
+			
+		// 	var html    = templateReddit(context);
+		// 	$('#results').html(html);
+		// }
+
+  		//creating buttons
+	  // $(document).ready(function() {
+	  // 	var index = 2; //(will get this w api ajax call)
+	  // 	var context2 =     {
+	  //       "selfText": " Tree Generation\n\nYour goal is to draw a tree given the base-width of the tree (the number of characters on the bottom-most row of the triangle section). This \"tree\" must be drawn through [ASCII art-style graphics](http://en.wikipedia.org/wiki/ASCII_art) on standard console output. It will consist of a 1x3 trunk on the bottom, and a triangle shape on the top. The tree must be centered, with the leaves growing from a base of N-characters, up to a top-layer of 1 character. Each layer reduces by 2 character, so the bottom might be 7, while shrinks to 5, 3, and 1 on top layers. See example output.\n\n_[Originally submitted by u/Onkel_Wackelflugel](http://www.reddit.com/r/dailyprogrammer_ideas/comments/1srsde/easy_build_a_christmas_treemenorah_with/)_\n\n# Formal Inputs &amp; Outputs\n## Input Description\n\nYou will be given one line of text on standard-console input: an integer and two characters, all space-delimited. The integer, N, will range inclusively from 3 to 21 and *always* be odd. The next character will be your trunk character. The next character will be your leaves character. Draw the trunk and leaves components with these characters, respectively.\n\n## Output Description\n\nGiven the three input arguments, draw a centered-tree. It should follow this pattern: (this is the smallest tree possible, with a base of 3)\n\n       *\n      ***\n      ###\n\nHere's a much larger tree, of base 7:\n\n       *\n      ***\n     *****\n    *******\n      ###\n\n# Sample Inputs &amp; Outputs\n## Sample Input 1\n\n    3 # *\n\n## Sample Output 1\n\n       *\n      ***\n      ###\n\n## Sample Input 2\n\n    13 = +\n\n## Sample Output 2\n\n          +\n         +++\n        +++++\n       +++++++\n      +++++++++\n     +++++++++++\n    +++++++++++++\n         ===\n\n# Challenge++\n\nDraw something special! Experiment with your creativity and engineering, try to render this tree in whatever cool way you can think of. [Here's an example](http://www.youtube.com/watch?v=QMYfkOtYYlg#t=15) of how far you can push a simple console for rendering neat graphics!",
+	  //       "selfText_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;h1&gt;&lt;a href=\"#EasyIcon\"&gt;&lt;/a&gt; &lt;em&gt;(Easy)&lt;/em&gt;: Tree Generation&lt;/h1&gt;\n\n&lt;p&gt;Your goal is to draw a tree given the base-width of the tree (the number of characters on the bottom-most row of the triangle section). This &amp;quot;tree&amp;quot; must be drawn through &lt;a href=\"http://en.wikipedia.org/wiki/ASCII_art\"&gt;ASCII art-style graphics&lt;/a&gt; on standard console output. It will consist of a 1x3 trunk on the bottom, and a triangle shape on the top. The tree must be centered, with the leaves growing from a base of N-characters, up to a top-layer of 1 character. Each layer reduces by 2 character, so the bottom might be 7, while shrinks to 5, 3, and 1 on top layers. See example output.&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;&lt;a href=\"http://www.reddit.com/r/dailyprogrammer_ideas/comments/1srsde/easy_build_a_christmas_treemenorah_with/\"&gt;Originally submitted by u/Onkel_Wackelflugel&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\n\n&lt;h1&gt;Formal Inputs &amp;amp; Outputs&lt;/h1&gt;\n\n&lt;h2&gt;Input Description&lt;/h2&gt;\n\n&lt;p&gt;You will be given one line of text on standard-console input: an integer and two characters, all space-delimited. The integer, N, will range inclusively from 3 to 21 and &lt;em&gt;always&lt;/em&gt; be odd. The next character will be your trunk character. The next character will be your leaves character. Draw the trunk and leaves components with these characters, respectively.&lt;/p&gt;\n\n&lt;h2&gt;Output Description&lt;/h2&gt;\n\n&lt;p&gt;Given the three input arguments, draw a centered-tree. It should follow this pattern: (this is the smallest tree possible, with a base of 3)&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;   *\n  ***\n  ###\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;Here&amp;#39;s a much larger tree, of base 7:&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;   *\n  ***\n *****\n*******\n  ###\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;h1&gt;Sample Inputs &amp;amp; Outputs&lt;/h1&gt;\n\n&lt;h2&gt;Sample Input 1&lt;/h2&gt;\n\n&lt;pre&gt;&lt;code&gt;3 # *\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;h2&gt;Sample Output 1&lt;/h2&gt;\n\n&lt;pre&gt;&lt;code&gt;   *\n  ***\n  ###\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;h2&gt;Sample Input 2&lt;/h2&gt;\n\n&lt;pre&gt;&lt;code&gt;13 = +\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;h2&gt;Sample Output 2&lt;/h2&gt;\n\n&lt;pre&gt;&lt;code&gt;      +\n     +++\n    +++++\n   +++++++\n  +++++++++\n +++++++++++\n+++++++++++++\n     ===\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;h1&gt;Challenge++&lt;/h1&gt;\n\n&lt;p&gt;Draw something special! Experiment with your creativity and engineering, try to render this tree in whatever cool way you can think of. &lt;a href=\"http://www.youtube.com/watch?v=QMYfkOtYYlg#t=15\"&gt;Here&amp;#39;s an example&lt;/a&gt; of how far you can push a simple console for rendering neat graphics!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+	  //       "url": "https://www.reddit.com/r/dailyprogrammer/comments/1t0r09/121613_challenge_145_easy_tree_generation/",
+	  //       "title": "[12/16/13] Challenge #145 [Easy] Tree Generation",
+	  //       "difficulty": "Easy"
+	  //   };
+	  // 	var nextButton = $('<button/>', {
+	  //       text: 'Next', //set text 1 to 10
+	  //       id: 'next',
+	  //       click: function () {
+	  //       		//ajax call to get current problem - /api/hards
+	  //       		$.ajax({
+  	// 					url: "/api/hards",
+  	// 					dataType:'json',
+  	// 					type: 'GET'
+  	// 				}).done(function(data){
+  	// 					show(data);
+  	// 				})
+
+	        		
+	  //        }
+	  //   });
+	  //   $('#buttons').append(nextButton);
+	  // });
+
+
+  </script>
+
+
+
+  </body>
+
+</html>

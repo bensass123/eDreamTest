@@ -3,14 +3,11 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-
+var models = require(__dirname + '/../../models/index');
 
 //database call to get indeces goes here
 var retrieveIndices = (req, res, next) => {
-  req.indexFunnies = 1;
-  req.indexEulers = 2;
-  req.indexQuotes = 3;
-  req.indexReddits = 4;
+  req.indexHards = 2;
   console.log('retrieveIndices run');
   next();
 }
@@ -24,11 +21,15 @@ router.use(retrieveIndices);
 
 var callDB = (req, res, next) => {
 	// set req.contentFunnies = json object pulled from DB where index = indexFunnies
-	// 
-  req.indexFunnies += 1;
-  req.indexEulers += 1;
-  req.indexQuotes += 1;
-  req.indexReddits += 1;
+  var iH = req.indexHards;
+  models.Hard.findOne({
+      where: {
+        id: iH
+      }
+  }).then(function(results) {
+        // results are available to us inside the .then
+      req.results = results;
+   });
   console.log('callDB run');
   next();
 }
@@ -37,7 +38,7 @@ router.use(callDB);
 
 //convert html in reddit data into displayable form
 var makeHtmlNice = (req, res, next) => {
-  var str = req.contentSelfTextHtml;
+  var str = req.results.selfText_html;
   str = str.replace(/&amp;lt;/g, '\<');
   str = str.replace(/&amp;gt;/g, '\>');
   str = str.replace(/&lt;/g, '<');
@@ -45,7 +46,7 @@ var makeHtmlNice = (req, res, next) => {
   str = str.replace(/&amp;amp;/g, '&');
   str = str.replace(/&amp;/g, '&');
   str = str.replace(/&quot;/g, '"');
-  req.contentSelfTextHtmlCorrected = str;
+  req.results.selfText_html = str;
   next();
 }
 
@@ -56,13 +57,10 @@ router.use(makeHtmlNice);
 // code below is test only, it will be adjusted to make an actual call to db based on Indices, 
 // goal of these two functions is to return all needed json data and render 
 // all other files in this directory useless :)
-router.get('/:username', function(req, res, next) {
-  var responseText = 'Hello ' + req.params.username + '!<br>';
-  responseText += '<small>indexFunnies ' + req.indexFunnies + '</small>';
-  responseText += '<small>indexEulers ' + req.indexEulers + '</small>';
-  responseText += '<small>indexQuotes ' + req.indexQuotes + '</small>';
-  responseText += '<small>indexReddits ' + req.indexReddits + '</small>';
-  res.send(responseText)
+router.get('/', function(req, res, next) {
+  console.log('**req.results**');
+  console.log(req.results);
+  res.render(test2, req.results);
 });
 
 module.exports = router;
